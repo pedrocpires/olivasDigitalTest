@@ -2,6 +2,8 @@
 
 Projeto para a seunda etapa do processo de seleção da Olivas Digital para a vaga de desenvolvedor Front-end.
 
+Deploy pelo GitPages disponível em [OlivasDigitalTest](https://pedrocpires.github.io/olivasDigitalTest/)
+
 ## Instalação
 
 Aconselhável instalar o plugin Live Server.
@@ -11,6 +13,10 @@ Aconselhável instalar o plugin Live Server.
 Podemos ver o servidor rodando em:
 
 [127.0.0.1:5500](http://127.0.0.1:5500/)
+
+Ou pelo GitPages em:
+
+[OlivasDigitalTest](https://pedrocpires.github.io/olivasDigitalTest/)
 
 ## Tecnologias utilizadas
 
