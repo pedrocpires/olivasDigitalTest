@@ -1,0 +1,193 @@
+@media (max-width: 600px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  header nav {
+    position: fixed;
+  }
+  .menu {
+    display: none;
+  }
+  .menu-mobile {
+    display: block;
+  }
+  .hero {
+    height: 300px;
+    position: relative;
+    top: 83px;
+    z-index: -1;
+    padding-top: 24px;
+    background-color: #ffffffa9;
+    background-blend-mode: lighten;
+  }
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 14px;
+  }
+  .hero h2 {
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 18px;
+  }
+  .hero p {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 16px;
+  }
+  .hero > span {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .video-institucional-container {
+    margin: 50px auto 0;
+  }
+  .video-svg {
+    grid-template-columns: 70px 160px;
+    font-size: 24px;
+  }
+  .video-svg svg {
+    margin-top: -75px;
+  }
+  .saiba-mais {
+    padding: 10px;
+  }
+  .saiba-mais h3 {
+    font-size: 30px;
+    margin-bottom: 12px;
+  }
+  .saiba-mais p {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 16px;
+  }
+  .saiba-mais > span {
+    font-size: 13px;
+    line-height: 16px;
+  }
+  .qualidades-container {
+    widows: 100%;
+    padding: 0 24px;
+    gap: 36px;
+    padding-bottom: 80px;
+  }
+  #justica h4,
+  #confianca h4 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  #justica p,
+  #confianca p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .bias-container {
+    padding: 0 24px;
+  }
+  .bias-container h2 {
+    font-size: 54px;
+    letter-spacing: -2px;
+    margin-top: -26px;
+    line-height: 45px;
+  }
+  .bias-content {
+    margin: 40px 0;
+  }
+  .bias-content h6 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .card {
+    margin: 0 0px 40px;
+    padding: 27px 24px;
+    border-radius: 15px;
+  }
+  .card:last-child:nth-last-of-type() {
+    margin-bottom: 50px;
+  }
+  .card-title {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: -46px;
+    margin-bottom: 12px;
+  }
+  .card-title > span {
+    font-size: 36px;
+  }
+  .card-content {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .performance-container {
+    padding: 0 24px;
+  }
+  .performance-container h2 {
+    font-size: 30px;
+    line-height: 36px;
+    margin-top: 40px;
+  }
+  .performance-content {
+    margin: 0;
+  }
+  .performance-content h6 {
+    font-size: 14px;
+    line-height: 21px;
+    padding: 14px 24px 20px;
+    margin-bottom: 24px;
+  }
+  .conexao-container {
+    padding: 0 24px;
+  }
+  .conexao-container h2 {
+    font-size: 30px;
+    line-height: 24px;
+    margin: 50px auto 27px;
+  }
+  .conexao-content {
+    margin: 0px auto 24px;
+  }
+  .conexao-content h6 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .lideranca-container {
+    padding: 0 24px;
+  }
+  .lideranca-container h2 {
+    font-size: 30px;
+    line-height: 32px;
+    margin-top: 36px;
+  }
+  .lideranca-content h6 {
+    font-size: 12px;
+    line-height: 16px;
+    padding: 10px 0;
+  }
+  .lideranca-content h5 {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 24px;
+  }
+  .lideranca-cards {
+    margin-top: 27px;
+  }
+  .ferramentas {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: auto;
+  }
+  .ferramentas img {
+    width: 50%;
+    padding: 16px;
+  }
+  .webcam {
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    padding: 16px;
+  }
+  .webcam i {
+    margin-right: 16px;
+  }
+}
